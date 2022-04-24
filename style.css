@@ -1,0 +1,124 @@
+
+
+
+/* Bài tập 1: nhập vào ngày,tháng,năm sau đó hiện thị ngày hôm qua và ngày mai */
+#nhapNgay {
+    width: 50%;
+    margin-top: -3px;
+}
+
+#nhapThang {
+    width: 50%;
+    margin-top: -3px;
+}
+
+#nhapNam {
+    width: 50%;
+    margin-top: -3px;
+}
+
+#tuongLai {
+    width: 30%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    transform: translateX(-50%);
+}
+
+#quaKhu {
+    width: 30%;
+    margin-bottom: 15px;
+    margin-left: 60%;
+}
+
+#ketQua1 {
+    height: 60px;
+}
+
+/* Bài tập 2 */
+#month {
+    margin-bottom: 10px;
+    margin-left: -120px;
+}
+
+#year {
+    margin-bottom: 10px;
+    margin-left: -120px;
+}
+
+#kiemTraThangNam {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+#ketQua2 {
+    height: 60px;
+}
+
+/* 
+Bài tập 3
+ */
+#soCoBaChuSo {
+    margin-left: -100px;
+}
+
+#cachDoc {
+    height: 40px;
+}
+
+/*
+ Bài tập 4:
+   */
+#tenSinhVien1 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoX1 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoY1 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#tenSinhVien2 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoX2 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoY2 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#tenSinhVien3 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoX3 {
+    margin-left: -165px;
+    margin-bottom: 15px;
+}
+
+#toaDoY3 {
+    margin-left: -165px;
+    margin-bottom: 20px;
+}
+#truongX{
+    margin-left: -140px;
+}
+#truongY{
+    margin-left: -140px;
+}
+#ketQua3{
+height: 40px;
+}

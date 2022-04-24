@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>javascript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- ngay thang nam -->
+    <div class="row container m-auto">
+        <div class="rol-md-10">
+            <div class="card">
+                <div class="card-header text-center">
+                    Quá khứ và hiện tại
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="rol-md-3">
+                            <table>Nhập ngày:</table>
+                        </div>
+                        <div class="rol-md-1">
+                            <input id="nhapNgay" type="number">
+                        </div>
+                        <div class="rol-md-3">
+                            <table>Nhập tháng:</table>
+                        </div>
+                        <div class="rol-md-1">
+                            <input id="nhapThang" type="number">
+                        </div>
+                        <div class="rol-md-3">
+                            <table>Nhập năm:</table>
+                        </div>
+                        <div class="rol-md-1">
+                            <input id="nhapNam" type="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button id="quaKhu" class="btn btn-success ">Hôm qua</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="tuongLai" class="btn btn-success ">Ngày mai</button>
+                    </div>
+                </div>
+                <div id="ketQua1" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Nhập tháng và năm sau đó kiểm tra tháng đó bao nhiêu ngày, năm đó có phải năm nhuận hay không -->
+    <div class="row container m-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    Bảng kiểm tra tháng và năm
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table>Nhập tháng:</table>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="month" type="number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <table>Nhập năm:</table>
+                        </div>
+                        <div class="col-md-6">
+                            <input id="year" type="number">
+                        </div>
+                    </div>
+                    <button id="kiemTraThangNam" class="btn btn-success">Kiểm tra</button>
+                </div>
+                <div id="ketQua2" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Bài 3: Nhập vào số có 3 chữ số và hiện thị cách đọc số đó -->
+    <div class="row container m-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    Cách đọc số có ba chữ số
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <table>Nhập số</table>
+                        </div>
+                        <div class="col-md-4">
+                            <input id="soCoBaChuSo" type="number">
+                        </div>
+                        <div class="col-md-4">
+                            <button id="docSo" class="btn btn-success">Đọc số</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="cachDoc" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Bài 4:Nhập tọa độ nhà 3 sinh viên, so sánh với tọa độ nhà trường ai là người ở xa trường nhất  -->
+    <div class="row">
+        <div class="col-md-10 container m-auto">
+            <div class="card">
+                <div class="card-header text-center">
+                    Xác định tọa độ xa nhất
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <table>Name</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="tenSinhVien1" type="text">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ X</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoX1" type="number">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ Y</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoY1" type="number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <table>Name</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="tenSinhVien2" type="text">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ X</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoX2" type="number">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ Y</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoY2" type="number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <table>Name</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="tenSinhVien3" type="text">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ X</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoX3" type="number">
+                        </div>
+                        <div class="col-md-2">
+                            <table>Tọa độ Y</table>
+                        </div>
+                        <div class="col-md-2">
+                            <input id="toaDoY3" type="number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <table>Trường học</table>
+                        </div>
+                         <div class="col-md-2">
+                             <table>Tọa độ X</table>
+                         </div>
+                         <div class="col-md-2">
+                             <input id="truongX" type="number">
+                          </div>
+                          <div class="col-md-2">
+                             <table>Tọa độ Y</table>
+                         </div>
+                          <div class="col-md-2">
+                             <input id="truongY" type="number">
+                          </div>
+                          <div class="col-md-2">
+                              <button id="xacDinhToaDo" class="btn btn-success">Tọa độ</button>
+                          </div>
+                    </div>
+                </div>
+                <div id="ketQua3" class="card-footer text-muted">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
